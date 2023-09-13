@@ -1,0 +1,26 @@
+.title {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    top: 0%;
+    color: #ffffe0;
+}
+
+.body {
+    color: #98FB98;
+}
+
+.feeding {
+    color: #ADD8E6;
+}
+
+.company-logo {
+    width: 648px;
+    height: 136px;
+}
+
+.babybottle {
+    width: 320px;
+    height: 240px;
+}
+
