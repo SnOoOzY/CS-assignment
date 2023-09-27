@@ -4,20 +4,28 @@
     align-items: center;
     top: 0%;
     color: #ffffe0;
-    display: flex;
 }
 
-.body {
-    color: #98FB98;
+.main-title {
+    scale: 140%;
 }
 
-.feeding {
-    color: #ADD8E6;
+body {
+    background-color: #98FB98; 
+    align-items: center;
+    text-align: center;
+}
+
+.feeding-header {
+    scale: 140%;
 }
 
 .company-logo {
     width: 648px;
     height: 136px;
+    align-items: center;
+    top: 0%;
+    border-radius: 10%;
 }
 
 .babybottle {
@@ -36,4 +44,43 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #00008B;
     size: 14px;
+}
+
+.feeding {
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+    background-color: #ADD8E6;
+}
+/*
+.feeding::before {
+    content: '';
+    position: absolute;
+    background: #ade6b660;
+    inset: 0;
+    transform: rotate(-3deg);
+    border-radius: 20%;
+    z-index: 1;
+} */
+
+.feeding-list {
+    display: inline-block;
+    text-align: left;
+}
+
+a:link {
+    color:#98FB98;
+}
+
+a:visited {
+    color:#009b00;
+}
+
+a:hover {
+    color:#00008B;
 }
